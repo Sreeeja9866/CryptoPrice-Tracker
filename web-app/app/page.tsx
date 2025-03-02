@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useTheme } from "next-themes";
@@ -25,9 +24,9 @@ export default function Home() {
         <Header />
         <div className=" grid grid-cols-[2fr_1.1fr] mt-4 max-md:grid-cols-1">
           <div>
-          <CryptoChart />
-
             <MarketTable />
+
+            <CryptoChart />
           </div>
         </div>
       </QueryClientProvider>
